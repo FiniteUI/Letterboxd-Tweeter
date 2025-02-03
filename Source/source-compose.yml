@@ -1,0 +1,18 @@
+#this file is for building the project from the source code
+
+name: letterboxd-tweeter
+
+services:
+  letterboxd-tweeter:
+    container_name: "letterboxd-tweeter"
+    build:
+      context: ./
+      dockerfile: Dockerfile.dockerfile
+    image: letterboxd-tweeter 
+    restart: unless-stopped
+    env_file: "Letterboxd-Tweeter.env"
+    volumes:
+      - letterboxd-tweeter-data:/app/Data
+
+volumes:
+  letterboxd-tweeter-data:

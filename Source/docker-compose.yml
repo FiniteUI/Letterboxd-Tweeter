@@ -1,0 +1,15 @@
+#build the project from the docker hub image
+
+name: letterboxd-tweeter
+
+services:
+  letterboxd-tweeter:
+    container_name: "letterboxd-tweeter"
+    image: finiteui/letterboxd-tweeter:latest
+    restart: unless-stopped
+    env_file: "Letterboxd-Tweeter.env"
+    volumes:
+      - letterboxd-tweeter-data:/app/Data
+
+volumes:
+  letterboxd-tweeter-data:
