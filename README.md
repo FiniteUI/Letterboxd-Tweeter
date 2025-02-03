@@ -18,6 +18,8 @@ To deploy the project on docker:
 - In the terminal, navigate to this directory, and run ```docker compose up -d```
 
 If the Letterboxd-Tweeter.env file variables are correct, you should be up and running.
+![image](https://github.com/user-attachments/assets/385234fa-f1f4-48ce-9f65-7d758898f2db)
+
 
 ## ENV File
 This project relies on an env file named Letterboxd-Poster.env with configuration variables to run. An example can be found [here](Source/Letterboxd-Poster.env.example).
