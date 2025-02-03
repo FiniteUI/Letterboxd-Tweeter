@@ -32,3 +32,6 @@ TWITTER_PASSWORD = Your Twitter Password
 ```
 
 While including your password may seem dangerous, this project is self hosted, and open source. The password is not stored anywhere other than the .env file, and is as secure as the machine you run the project on.
+
+> [!WARNING]
+> Since this project skirts around the Twitter API and logs in with your account directly, it can lead to an account suspension. Once the project has logged in to your account, it will save the cookies so that it does not need to login again. Running the project multiple times or in multiple containers will cause multiple logins and may get flagged as bot activity by Twitter, leading to a suspension. Use at your own risk.
