@@ -11,7 +11,7 @@ The project reads Letterboxd's RSS feed using [feedparser](https://github.com/ku
 ## Deployment
 The project can be run locally, but was designed to be run on Docker.
 
-The image is hosted on [Docker Hub](https://hub.docker.com/repository/docker/finiteui/letterboxd-tweeter) and can be deploted from there.
+The image is hosted on [Docker Hub](https://hub.docker.com/repository/docker/finiteui/letterboxd-tweeter) and can be deployed from there.
 To deploy the project on docker:
 - Create a new directory and download the included [docker-compose](Source/docker-compose.yml) file into it.
 - In the directory, create a file named Letterboxd-Tweeter.env with the contents defined below.
