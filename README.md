@@ -14,7 +14,7 @@ The project can be run locally, but was designed to be run on Docker.
 The image is hosted on [Docker Hub](https://hub.docker.com/repository/docker/finiteui/letterboxd-tweeter) and can be deploted from there.
 To deploy the project on docker:
 - Create a new directory and download the included [docker-compose](Source/docker-compose.yml) file into it.
-- In the directory, create a file name Letterboxd-Tweeter.env with the contents defined below.
+- In the directory, create a file named Letterboxd-Tweeter.env with the contents defined below.
 - In the terminal, navigate to this directory, and run ```docker compose up -d```
 
 If the Letterboxd-Tweeter.env file variables are correct, you should be up and running.
