@@ -26,7 +26,7 @@ This project relies on an env file named Letterboxd-Poster.env with configuratio
 The file needs the following:
 ```
 LETTERBOXD_ACCOUNT = Your Letterboxd account name
-TWITTER_USER = Your Twitter use name (no @)
+TWITTER_USER = Your Twitter user name (no @)
 TWITTER_EMAIL = The email address associated with your Twitter account
 TWITTER_PASSWORD = Your Twitter Password
 ```
